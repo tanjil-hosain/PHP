@@ -9,11 +9,21 @@
     <?php
 
     // String Data Type
-    
+
     $data = "Plaese Quit this Earth!!";
     echo $data;
     echo "<br>";
     echo var_dump($data);
+
+    // Boolean Data Type
+    $vtype= true;
+    echo "<br>";
+    var_dump(($vtype));
+
+    // Integer Data Type
+    $int = 1000;
+    echo "<br>";
+    var_dump($int);
 
     ?>
 </body>
