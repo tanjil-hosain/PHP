@@ -25,6 +25,11 @@
     echo "<br>";
     var_dump($int);
 
+    // Float Data Type 
+    $flt = 55.55;
+    echo "<br>";
+    var_dump($flt);
+
     ?>
 </body>
 </html>
