@@ -6,11 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-     <?php
-    $num1=34;
-    $num2 = 5;
-    $sum=  $num1 + $num2;
-    echo $sum;
+    <?php
+
+    // String Data Type
+    
+    $data = "Plaese Quit this Earth!!";
+    echo $data;
+    echo "<br>";
+    echo var_dump($data);
+
     ?>
 </body>
 </html>
