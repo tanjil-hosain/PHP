@@ -9,13 +9,17 @@
     <form action="#" method="post">
         User Name: <br>
         <input type="text" name="uname"> <br>
+        Email: <br>
+        <input type="email" name="email"> <br>
         <input type="submit" value="Submit">
 
 
     </form>
 
     <?php
-    echo $_REQUEST['uname'];
+    echo $_REQUEST['uname']; 
+    echo "<br>";
+    echo $_REQUEST['email'];
     ?>
 </body>
 </html>
