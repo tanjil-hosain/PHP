@@ -15,9 +15,12 @@
     test("Yes i show it")
     ?>
 
-    <!-- Annonimus Function -->
+    
      <?php
-     
+     $student = ["Rafin, faim, sumi"];
+     print_r($student);
+     echo $student;
+
      ?>
 </body>
 </html>
