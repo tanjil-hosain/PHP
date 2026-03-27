@@ -3,15 +3,17 @@ class Car {
     public $model="sd12";
     public $color="black";
     public $name = "Toyota";
-    function info(){    // local function,, --->> eta sudu scope ba class name dhore call kora jay!!!
+    function info($c){    // local function,, --->> eta sudu scope ba class name dhore call kora jay!!!
         echo "Please Quit this Earth";
+        $this->color = $c;
+        return $this-> color;
     }
 }
  $car =new Car();   // ei class k call korte hole new dore class ta ekta variable rekhe call korte
 
  echo $car ->model; 
  echo "</br>";
- echo $car ->info(); 
+ echo $car ->info("green"); 
   // ekhane object er varible $(dollar) sing use kora jabe na,, -->>>> use korle error ase!!!
 
  class bar {
