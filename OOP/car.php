@@ -1,5 +1,5 @@
 <?php
-class car {
+class Bar {
     public $name = "BMW";
     public $start = "start ";
     public $break = "break";
@@ -20,5 +20,5 @@ class car {
         
     }
 }
-$car = new car;
+$car = new Bar;
 echo $car -> runnig_car( "Start", "Break", "reverse", "Stop!!");

@@ -1,5 +1,5 @@
 <?php
-class Car {
+class Dar {
     public $model="sd12";
     public $color="black";
     public $name = "Toyota";
@@ -9,7 +9,7 @@ class Car {
         return $this-> color;
     }
 }
- $car =new Car();   // ei class k call korte hole new dore class ta ekta variable rekhe call korte
+ $car =new Dar();   // ei class k call korte hole new dore class ta ekta variable rekhe call korte
 
  echo $car ->model; 
  echo "</br>";
