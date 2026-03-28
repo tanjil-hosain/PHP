@@ -24,4 +24,18 @@ class Student {
 
 $student = new Student();
 $student->details("Tanjil. ", 23);
+
+class Teacher extends Student{
+    public $position;
+    public $sellary;
+
+    public function teacherDetails(){
+        echo ('HI!! I am Tanjil');
+    }
+}
+
+$teacher = new  Teacher();
+$teacher -> details("layes", 2222);
+
+
 ?>
