@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 
     if ( $a >= $b && $a >= $c ){
         echo "The Largest Number: ". $a;
-    } else if ( $b >= $a && $b>=$c){
+    } else if ( $b >= $a && $b >= $c){
         echo "The Largest Number: " . $b;
     } else{
         echo "The Largest Number: ". $c;

@@ -7,7 +7,7 @@ class car {
         echo " <br> Bye";
 
     }
-    public function __construct($n, $c)
+    public function __construct($n, $c) // construct() e function call kora lage na object argument Value 
     {
         echo "Hello ".$this -> name=$n. " is ".$this ->color=$c;
     }

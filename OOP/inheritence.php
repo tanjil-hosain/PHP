@@ -30,7 +30,7 @@ class Teacher extends Student{
     public $sellary;
 
     public function teacherDetails(){
-        echo ('HI!! I am Tanjil');
+        echo ('HI!! I am Tanjil'); 
     }
 }
 

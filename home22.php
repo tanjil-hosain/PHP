@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- addition -->
      <?php
     $num1=34;
     $num2 = 5;
     $sum=  $num1 + $num2;
     echo $sum;
     ?>
+    
 </body>
 </html>

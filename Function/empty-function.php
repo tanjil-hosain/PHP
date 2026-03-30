@@ -8,7 +8,7 @@
 <body>
     <?php
     $a="";
-    $b===0;
+    $b=0;
     $c = [];
     $d = "heloo";
     var_dump(empty($a));
