@@ -5,7 +5,7 @@ class A {
     }
 }
 
-final class B extends A{          // final use korle oita k r extend kora jay na!!
+final class B extends A{          // final use korle oita k r extend kora jay na!! eta return er moto
     public function info2(){
         echo "Whtasup, Guys";
     }

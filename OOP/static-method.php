@@ -1,6 +1,6 @@
 <?php
 class User{
-    public static $name = "hello World!". "<br>";
+    public static $name = "hello World!". "<br>";  // static er kaj hocche code short kora new object creatw kora lage na
     const name = "Heloo world!!!!!!!". "<br>";
 
     public static function info(){
@@ -8,6 +8,6 @@ class User{
     }
 }
 
-echo user::info();
-echo user::$name;
-echo user::name;
+echo User::info();
+echo User::$name;
+echo User::name;
