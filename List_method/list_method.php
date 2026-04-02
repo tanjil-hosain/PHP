@@ -8,4 +8,5 @@ $a=[
 
 foreach($a as list($id, $name, $age)){
     echo "$name | $age ";
+    
 }
