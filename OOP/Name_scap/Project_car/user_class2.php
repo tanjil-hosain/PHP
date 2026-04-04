@@ -1,7 +1,7 @@
-<?php 
-namespace Userone;
+<?php
+namespace Usertwo;
 class User  {
-    public $name = "Tanjil";
+    public $name = "Shownok";
     public $deg = "Employee";
     public function userinfo(){
         echo "This is ". $this->name;

@@ -1,4 +1,5 @@
 <?php
+namespace Carname;
 class Car {
     public $name = "BMW";
     public $model = "i80";
