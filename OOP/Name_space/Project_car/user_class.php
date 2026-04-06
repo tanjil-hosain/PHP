@@ -7,5 +7,3 @@ class User  {
         echo "This is ". $this->name;
     }
 }
-$result = new User();
-$result-> userinfo();

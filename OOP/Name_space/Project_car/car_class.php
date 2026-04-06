@@ -7,5 +7,3 @@ class Car {
         echo "This is ". $this->name;
     }
 }
-$result = new Car();
-$result->carInfo();

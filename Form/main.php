@@ -4,8 +4,8 @@ if(isset($_POST["btnSubmit"])){
     $trainID = $_POST['txtId'];
     $trainName =$_POST['txtName'];
     // create a object 
-    $munna = new Trainee($trainID,$trainName);
-    $munna->save();
+    $user = new Trainee($trainID,$trainName);
+    $user->save();
 }
 
 ?>
