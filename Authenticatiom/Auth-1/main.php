@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    HI!!!
+    <h2>Please Quit this earth!!</h2>
 </body>
 </html>
