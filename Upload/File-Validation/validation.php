@@ -11,7 +11,7 @@
         $fileName = $_FILES['f']['name']; //name mane holo file name
         $tmp = $_FILES['f']['tmp_name']; //tmp mane loaction
         $typ = pathinfo($fileName, PATHINFO_EXTENSION); //file type ber korar jonno 
-        $s = "../img/";
+        $s = "img/";
         if($typ == "jpg" || $typ == "png"){ //condition for file type
         move_uploaded_file("$tmp", "$s.$fileName");
          }

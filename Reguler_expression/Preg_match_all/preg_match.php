@@ -1,4 +1,5 @@
 <?php
+// pattern/modifire(i-case-insentive)
 $str = "this is reguler Expression";
 $pattern = "/i/";
 echo preg_match($pattern, $str);

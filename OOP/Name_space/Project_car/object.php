@@ -10,6 +10,7 @@ use Carname\Car;
 $result = new Car();
 $result->carInfo();
 echo "<br>";
+
 $u1 = new User();
 $u1-> userinfo();
 echo "<br>";
