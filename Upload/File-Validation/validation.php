@@ -8,11 +8,11 @@
 
     <?php
     if(isset($_POST['submitbtn'])){
-        $fileName = $_FILES['f']['name']; //name mane holo file name
-        $tmp = $_FILES['f']['tmp_name']; //tmp mane loaction
-        $typ = pathinfo($fileName, PATHINFO_EXTENSION); //file type ber korar jonno 
+        $fileName = $_FILES['f']['name']; 
+        $tmp = $_FILES['f']['tmp_name'];
+        $typ = pathinfo($fileName, PATHINFO_EXTENSION); 
         $s = "img/";
-        if($typ == "jpg" || $typ == "png"){ //condition for file type
+        if($typ == "jpg" || $typ == "png"){ 
         move_uploaded_file("$tmp", "$s.$fileName");
          }
          else {

@@ -1,4 +1,5 @@
 <?php
+require_once "myclass.php";
 if(isset($_POST["btnsubmit"])){
     $id = $_POST["id"];
     $name = $_POST["name"];
@@ -29,3 +30,7 @@ if(isset($_POST["btnsubmit"])){
     </form>
 </body>
 </html>
+
+<?php
+$user->display();
+?>
