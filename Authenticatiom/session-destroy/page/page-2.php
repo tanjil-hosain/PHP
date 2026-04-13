@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    Hi this may frist page
+    This is my Secound Page
 </body>
 </html>
